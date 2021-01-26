@@ -5,7 +5,7 @@ export const HeaderContainer = styled.header`
   position: fixed;
   height: 50px;
   width: 100vw;
-  background-color: ${COLORS.background};
+  background-color: ${COLORS.secondaryBackground};
   color: ${COLORS.font};
   border-bottom: 5px solid ${COLORS.secondaryFont};
   display: flex;

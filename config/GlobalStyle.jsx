@@ -7,11 +7,13 @@ export const GlobalStyle = createGlobalStyle`
   html {
     box-sizing: border-box;
     font-size: 13px;
-    font-family: 'Raleway'
+    font-family: 'Raleway';
   }
   body {
     height: 100vh;
-    font-family: 'Raleway'
+    font-family: 'Raleway';
+    max-width: 100%;
+    overflow-x: hidden;
   }
   *, *:before, *:after {
     box-sizing: inherit;
