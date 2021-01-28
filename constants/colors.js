@@ -6,4 +6,5 @@ export const COLORS = {
   bodyFont: '#444649',
   gray: '#666',
   white: '#FFF',
+  checked: '#329176',
 };

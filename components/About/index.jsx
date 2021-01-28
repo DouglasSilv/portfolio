@@ -1,9 +1,10 @@
+import { Section } from '../Section';
 import Title from '../Title';
-import { AboutDescription, AboutSection, Link } from './styles';
+import { AboutDescription, Link } from './styles';
 
 const About = () => {
   return (
-    <AboutSection>
+    <Section>
       <Title text="About" />
       <AboutDescription>
         I&apos;m a software developer for{' '}
@@ -15,7 +16,7 @@ const About = () => {
         that probably influenced my choice in the area of software development. Below, you can check
         my skills and which technologies I am most familiar with
       </AboutDescription>
-    </AboutSection>
+    </Section>
   );
 };
 

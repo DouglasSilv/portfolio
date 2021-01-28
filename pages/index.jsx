@@ -1,6 +1,9 @@
 import { GlobalStyle } from '../config/GlobalStyle';
-import Portfolio from './Portfolio';
 import Head from 'next/head';
+import Header from '../components/Header';
+import Home from '../components/Home';
+import SocialNetworks from '../components/SocialNetworks';
+import Sections from '../components/Sections';
 
 const Main = () => {
   return (
@@ -13,7 +16,10 @@ const Main = () => {
         <title>Douglas Silva - Software Developer</title>
       </Head>
       <GlobalStyle />
-      <Portfolio />
+      <Header />
+      <SocialNetworks />
+      <Home />
+      <Sections />
     </>
   );
 };

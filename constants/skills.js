@@ -36,7 +36,15 @@ export const SKILLS = [
     stars: 3,
   },
   {
+    name: 'NextJS',
+    stars: 3,
+  },
+  {
     name: 'AngularJS',
+    stars: 3,
+  },
+  {
+    name: 'English',
     stars: 3,
   },
   {
