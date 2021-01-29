@@ -9,6 +9,7 @@ export const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     font-size: 13px;
     font-family: 'Raleway';
+    scroll-behavior: smooth;
   }
   body {
     height: 100vh;

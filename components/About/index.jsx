@@ -4,7 +4,7 @@ import { AboutDescription, Link } from './styles';
 
 const About = () => {
   return (
-    <Section>
+    <Section id="about">
       <Title text="About" />
       <AboutDescription>
         I&apos;m a software developer for

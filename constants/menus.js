@@ -1,14 +1,1 @@
-export const MENUS = [
-  {
-    name: 'HOME',
-  },
-  {
-    name: 'ABOUT',
-  },
-  {
-    name: 'SKILLS',
-  },
-  {
-    name: 'TIMELINE',
-  },
-];
+export const MENUS = ['home', 'about', 'skills', 'timeline'];

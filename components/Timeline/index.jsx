@@ -5,7 +5,7 @@ import Title from '../Title';
 
 const Timeline = () => {
   return (
-    <Section>
+    <Section id="timeline">
       <Title text="Timeline" padding="0 0 25px 0" />
       {TIMELINE.reverse().map((item, index) => (
         <TimelineYear key={index} year={item.year} events={item.events} />

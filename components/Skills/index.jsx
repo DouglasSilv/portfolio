@@ -5,7 +5,7 @@ import { SkillsSectionBody, StyledSkillRating } from './styles';
 
 const Skills = () => {
   return (
-    <Section>
+    <Section id="skills">
       <Title text="Skills" />
       <SkillsSectionBody>
         {SKILLS.map((skill, index) => (

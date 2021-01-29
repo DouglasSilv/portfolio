@@ -4,13 +4,12 @@ import { IoArrowDownCircleSharp } from 'react-icons/io5';
 import { COLORS } from '../../constants/colors';
 
 const Home = () => {
-  const handleDownClick = () =>
-    window.scrollTo({ top: document.documentElement.clientHeight, behavior: 'smooth' });
+  const handleDownClick = () => document.getElementById('about').scrollIntoView();
 
   const welcomeText = getWelcomeTextBasedOnUserTime();
 
   return (
-    <HomeContainer>
+    <HomeContainer id="home">
       <HomeTitle>
         {welcomeText} I&apos;m <HomeTitleName>Douglas Silva</HomeTitleName>.
         <br />A software developer from Porto Alegre, Brazil.

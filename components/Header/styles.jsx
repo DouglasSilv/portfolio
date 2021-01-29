@@ -6,16 +6,17 @@ export const HeaderContainer = styled.header`
   height: 50px;
   width: 100vw;
   background-color: ${COLORS.secondaryBackground};
-  color: ${COLORS.font};
   border-bottom: 5px solid ${COLORS.secondaryFont};
   display: flex;
   justify-content: center;
   align-items: center;
 `;
 
-export const HeaderItem = styled.div`
+export const HeaderItem = styled.a`
   font-size: 20px;
   padding: 2px 20px;
+  text-decoration: none;
+  color: ${COLORS.font};
   cursor: pointer;
 
   :not(:last-child) {
