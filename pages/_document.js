@@ -49,6 +49,7 @@ export default class MyDocument extends Document {
             rel="stylesheet"
           />
           <link rel="shortcut icon" href="/static/favicon.ico" />
+          <meta property="og:image" content="/static/logo.png" />
           <title>Douglas Silva - Software Developer</title>
         </Head>
         <body>
