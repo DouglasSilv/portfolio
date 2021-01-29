@@ -12,7 +12,7 @@ export const SKILLS = [
     stars: 5,
   },
   {
-    name: 'SpringBoot',
+    name: 'Spring Boot',
     stars: 5,
   },
   {

@@ -1,12 +1,13 @@
 {
-  "name": "learn-starter",
+  "name": "iamdouglas.dev",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "export": "next build && next export",
-    "start": "next start"
+    "start": "next start",
+    "lint": "eslint --fix --ext .js,.jsx ."
   },
   "dependencies": {
     "next": "^10.0.0",

@@ -55,7 +55,7 @@ export const TIMELINE = [
       {
         title: 'Started at DBC Company 🔥',
         description:
-          "One of the biggest opportunities I've ever had in my life. I was selected to be part of a group of 15 trainees who for 3 months would have classes of basic programming, VueJS, Java (SpringBoot) and agile software development.",
+          "One of the biggest opportunities I've ever had in my life. I was selected to be part of a group of 15 trainees who for 3 months would have classes of basic programming, VueJS, Java (Spring Boot) and agile software development.",
       },
       {
         title: 'Full-Time at DBC Company',
@@ -70,7 +70,7 @@ export const TIMELINE = [
       {
         title: 'First international project 🌎',
         description:
-          'Looking for expansion to other countries, TicketLog started a new project to reach Mexico and Argentiva (until now), I have been learning a lot here because we are using a much newer stack (React and SpringBoot) and creating innovative solutions.',
+          'Looking for expansion to other countries, TicketLog started a new project to reach Mexico and Argentiva (until now), I have been learning a lot here because we are using a much newer stack (React and Spring Boot) and creating innovative solutions.',
       },
     ],
   },
