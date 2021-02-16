@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { COLORS } from '../../constants/colors';
+import { BREAKPOINTS } from '../../constants/screen';
 
 export const HeaderContainer = styled.header`
   position: fixed;
@@ -18,6 +19,10 @@ export const HeaderItem = styled.a`
   text-decoration: none;
   color: ${COLORS.font};
   cursor: pointer;
+
+  @media (max-width: ${BREAKPOINTS.sm}px) {
+    font-size: 15px;
+  }
 
   :not(:last-child) {
     border-right: 1px solid ${COLORS.gray};
