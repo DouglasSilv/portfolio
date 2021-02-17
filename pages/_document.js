@@ -1,6 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
-import { GA_TRACKING_ID } from '../constants/gtag';
 
 export default class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -35,7 +34,10 @@ export default class MyDocument extends Document {
       <Html lang={this.props.lang || 'en'}>
         <title>Douglas Silva - Software Developer</title>
         <Head>
-          <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`} />
+          <script
+            async
+            src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GA_TRACKING_ID}`}
+          />
           {isProd && (
             <script
               dangerouslySetInnerHTML={{
