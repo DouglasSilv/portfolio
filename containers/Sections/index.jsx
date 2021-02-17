@@ -1,5 +1,5 @@
 import { Fragment } from 'react';
-import GrayLine from '../GrayLine';
+import GrayLine from '../../components/GrayLine';
 import { SectionsBody, SectionsBodyContainer } from './styles';
 import { SECTIONS } from '../../constants/sections';
 

@@ -1,9 +1,9 @@
 import { createContext } from 'react';
-import Header from '../components/Header';
-import Home from '../components/Home';
-import SocialNetworks from '../components/SocialNetworks';
-import Sections from '../components/Sections';
-import Contact from '../components/Contact';
+import Header from '../containers/Header';
+import Home from '../containers/Home';
+import SocialNetworks from '../containers/SocialNetworks';
+import Sections from '../containers/Sections';
+import Contact from '../containers/Contact';
 import { SKILLS_QUERY, TIMELINE_QUERY } from '../graphql/queries';
 import { executeQueries } from '../config/apolloClient';
 
