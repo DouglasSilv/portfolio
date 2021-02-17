@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import SkillRating from '../SkillRating';
+import SkillRating from '../../components/SkillRating';
 
 export const SkillsSectionBody = styled.div`
   padding-top: 25px;

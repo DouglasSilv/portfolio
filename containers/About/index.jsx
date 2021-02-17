@@ -1,5 +1,5 @@
-import { Section } from '../Section';
-import Title from '../Title';
+import { Section } from '../../components/Section';
+import Title from '../../components/Title';
 import { AboutDescription, Link } from './styles';
 
 const About = () => {

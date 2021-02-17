@@ -1,7 +1,7 @@
 import { useContext } from 'react';
 import { Context } from '../../pages';
-import { Section } from '../Section';
-import Title from '../Title';
+import { Section } from '../../components/Section';
+import Title from '../../components/Title';
 import { SkillsSectionBody, StyledSkillRating } from './styles';
 
 const Skills = () => {

@@ -1,7 +1,7 @@
 import { useContext } from 'react';
-import { Section } from '../Section';
-import TimelineYear from '../TimelineYear';
-import Title from '../Title';
+import { Section } from '../../components/Section';
+import TimelineYear from '../../components/TimelineYear';
+import Title from '../../components/Title';
 import { Context } from '../../pages';
 
 const Timeline = () => {
