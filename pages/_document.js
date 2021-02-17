@@ -56,25 +56,7 @@ export default class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
             rel="stylesheet"
           />
-          <meta
-            name="description"
-            content="I’m a Software Developer from Brazil and passionate about creating software."
-          />
-          <meta
-            property="og:description"
-            content="I’m a Software Developer from Brazil and passionate about creating software."
-          />
-          <meta property="og:type" content="article" />
           <link rel="shortcut icon" href="/static/favicon.ico" />
-          <meta property="og:image" content="/static/card.jpg" />
-          <meta property="og:url" content="http://iamdouglas.dev" />
-          <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content="Douglas Silva - Software Developer" />
-          <meta
-            name="twitter:description"
-            content="I’m a Software Developer from Brazil and passionate about creating software."
-          />
-          <meta name="twitter:image" content="/static/card.jpg" />
         </Head>
         <body>
           <Main />
